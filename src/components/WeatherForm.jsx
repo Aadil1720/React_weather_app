@@ -8,7 +8,7 @@ const WeatherForm = ({sendData}) => {
   const [weatherData, setWeatherData] = useState(null);
  
   // const appid=process.env.REACT_APP_API_KEY;
-const url=`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=4ae1037be9689befbc7edc7c6be7abf8`;
+const url=`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=4ae1037be9689befbc7edc7c6be7abf8`;
    const message=''
    const handleSubmit = async (e) => {
     e.preventDefault();
