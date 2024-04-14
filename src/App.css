@@ -312,6 +312,8 @@ footer p {
     font-size: 5rem;
     font-weight: 900;
   }
+  .middle_layer .deg{
+  font-size:3rem;
 }
 
 @media (max-width: 768px) {
